@@ -1,8 +1,6 @@
   --DROP indices que ya no se usan
   DROP INDEX "IDX_AUDIT_MASTER_USER"
-  ;
-  
- 
+  ; 
   DROP INDEX "SGT_ZONAS_CHK_NOMBRE" ON "SGT_ZONAS" ("NOMBRE") 
   ;
   DROP INDEX "SIGLAS_UNICA" ON "SGT_TIPO_EQUIPOS" ("SIGLAS") 
